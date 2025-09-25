@@ -35,6 +35,3 @@ def Escola():
             print("Escolha uma opção valida!")
             return Escola()
 Escola()
-
-git config --global user.email "rodriguesdovalegabriel@gmal.com"
-git config --global user.name "gabzzz07"
