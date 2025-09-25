@@ -36,5 +36,5 @@ def Escola():
             return Escola()
 Escola()
 
-git config --global user.email "jlucasgames909@gmail.com"
-git config --global user.name "meloozwx"
+git config --global user.email "rodriguesdovalegabriel@gmal.com"
+git config --global user.name "gabzzz07"
