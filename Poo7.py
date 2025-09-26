@@ -30,4 +30,3 @@ def ganhador():
      else:
           print(f"A moto2 ganhou")
 ganhador()
-
