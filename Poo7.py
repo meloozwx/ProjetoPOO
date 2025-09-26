@@ -1,4 +1,4 @@
-class Carro():
+class Moto():
     def __init__(self, marca, modelo, ano, cor):
         self.marca = marca
         self.modelo = modelo
@@ -15,16 +15,19 @@ class Carro():
             if self.velocidade < 0:
                 self.velocidade = 0
                 print(f"{self.modelo} reduziu para {self.velocidade} km/h")
-        
-    def detalhes(self):
-            return (f"A marca é {self.marca},o modelo é {self.modelo},o ano é {self.ano},a cor é {self.cor},a velocidade é {self.velocidade} km/h")
-        
-        
-        
-carro1 = Carro("Toyota", "corola", 2020, "preto")
-carro2 = Carro("honda", "civic", 2019, "vermelho")
 
-carro1.Acelerar(10)
-print(carro1.detalhes())
-carro2.frear(5)
-print(carro2.detalhes())
+moto1 = Moto("Toyota", "corola", 2020, "preto")
+moto2 = Moto("honda", "civic", 2019, "vermelho")
+
+moto1.Acelerar(10)
+moto1.frear(5)
+
+moto2.Acelerar(13)
+moto2.frear(7)
+def ganhador():
+     if (moto1.velocidade > moto2.velocidade):
+          print(f"A moto1 ganhou")
+     else:
+          print(f"A moto2 ganhou")
+ganhador()
+
